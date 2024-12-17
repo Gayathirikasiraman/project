@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Mandali, sans-serif;
+    color: white;
+}
+.container{
+    height: 120vh;
+    width: 100%;
+    border: 1px solid;
+    background-color: blue;
+}
+.child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    /* position:absolute;
+    top: 0; */
+    margin-top:3%;
+    font-size: 18px;
+ 
+}
+.child ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: space-around;
+    width: 40%;
+    color: lightgray;
+}
+.child ul li:hover{
+    text-decoration: underline;
+    color: white;
+}
+.child img
+{
+    margin-left: 5%;
+}
+.child .c1{
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+
+.child .c1  p{
+    margin-left: 5%;
+}
+.child .c1 button{
+    background-color: transparent;
+    filter: blur(7);
+    height:40px;
+    width: 40%;
+    margin-left: 10%;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+
+}
+.child .c1 button:hover{
+    background-color: white;
+    color: blue;
+}
+.b{
+    display: flex;
+}
+.b1{
+    margin-left: 5%;
+}
+.b1 h1{
+    margin-top: 40%;
+    list-style: 27px;
+    font-weight: 800;
+}
+.b3{
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.b1 p{
+    margin-top: 8%;
+    color: lightgrey;
+    line-height: 28px;
+}
+.b2{
+    margin-top: 5%;
+    height: 20px;
+    
+}
+.b2 button{
+    background-color: green;
+    height: 30px;
+    width: 20%;
+}
